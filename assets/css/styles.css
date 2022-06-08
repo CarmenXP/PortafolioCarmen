@@ -13,11 +13,14 @@ nav{
 }
 ul{
     display: flex;
-    text-decoration: none;
+    list-style: none;
     padding: .5rem;
 }
 li{
     padding:.5rem;
+}
+nav > ul > li > a{
+    text-decoration: none;
 }
 .imagePersonal{
     position: relative;
@@ -30,6 +33,13 @@ li{
     width: 200px;
     height: 275px;
     border-radius: 35%;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.presentation>h2, .presentation>h1{
+    text-align: center;
 }
 .presentation :nth-child(6){
     width: 100%;
@@ -45,9 +55,22 @@ li{
 .contentSkills{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
 }
-
-.myContac{
+.line-time{
     display: grid;
     grid-template-columns: auto auto;
 }
+.myContac{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.cardContac{
+  text-align: center;  
+}
+footer{
+    text-align: center;
+}
+
