@@ -5,3 +5,12 @@
     background-color: #020403;
     color:#FFFF;
 }
+nav{
+    display: flex;
+}
+.imagePersonal{
+    position: relative;
+}
+.imagePersonal:nth-child(2){
+    position: absolute;
+}
