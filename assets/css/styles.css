@@ -7,10 +7,47 @@
 }
 nav{
     display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+    justify-content: end;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    padding: .5rem;
+}
+li{
+    padding:.5rem;
 }
 .imagePersonal{
     position: relative;
 }
-.imagePersonal:nth-child(2){
-    position: absolute;
+.imagePersonal :first-child{
+    width: 100%;
+
+}
+.imagePersonal :nth-child(2){
+    width: 200px;
+    height: 275px;
+    border-radius: 35%;
+}
+.presentation :nth-child(6){
+    width: 100%;
+
+}
+.aboutMe{
+
+}
+.skillsSection{
+    display: flex;
+    flex-direction: column;
+}
+.contentSkills{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.myContac{
+    display: grid;
+    grid-template-columns: auto auto;
 }
